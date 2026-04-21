@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Course - Frontend Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="goHome()">← Back to Home</button>
+        </nav>
+        <h1>HTML Course</h1>
+        <p>Learn the fundamentals of HTML</p>
+    </header>
+
+    <main>
+        <section class="course-content">
+            <h2>HTML Topics</h2>
+            <div class="topics-list">
+                <div class="topic">
+                    <h3>1. Introduction to HTML</h3>
+                    <p>What is HTML and why it's important for web development</p>
+                    <ul>
+                        <li>HTML stands for HyperText Markup Language</li>
+                        <li>It's the standard markup language for creating web pages</li>
+                        <li>HTML describes the structure of a web page</li>
+                    </ul>
+                </div>
+
+                <div class="topic">
+                    <h3>2. Basic HTML Elements</h3>
+                    <p>Essential HTML tags and their usage</p>
+                    <ul>
+                        <li>Heading tags (h1, h2, h3, h4, h5, h6)</li>
+                        <li>Paragraph tag (p)</li>
+                        <li>Line break (br) and horizontal rule (hr)</li>
+                        <li>Text formatting tags (strong, em, u)</li>
+                    </ul>
+                </div>
+
+                <div class="topic">
+                    <h3>3. Lists and Links</h3>
+                    <p>Creating ordered and unordered lists, adding hyperlinks</p>
+                    <ul>
+                        <li>Unordered lists (ul) and list items (li)</li>
+                        <li>Ordered lists (ol)</li>
+                        <li>Anchor tags (a) for links</li>
+                        <li>Internal and external links</li>
+                    </ul>
+                </div>
+
+                <div class="topic">
+                    <h3>4. Images and Media</h3>
+                    <p>Adding images and media to your web pages</p>
+                    <ul>
+                        <li>Image tag (img) and attributes</li>
+                        <li>Alt text for accessibility</li>
+                        <li>Audio and video elements</li>
+                        <li>Responsive images</li>
+                    </ul>
+                </div>
+
+                <div class="topic">
+                    <h3>5. Tables and Forms</h3>
+                    <p>Creating data tables and interactive forms</p>
+                    <ul>
+                        <li>Table elements (table, tr, td, th)</li>
+                        <li>Form elements (form, input, textarea, select)</li>
+                        <li>Form validation attributes</li>
+                        <li>Buttons and form submission</li>
+                    </ul>
+                </div>
+
+                <div class="topic">
+                    <h3>6. Semantic HTML5</h3>
+                    <p>Modern HTML5 semantic elements</p>
+                    <ul>
+                        <li>Header, nav, main, section, article, aside, footer</li>
+                        <li>Figure and figcaption</li>
+                        <li>Time and date elements</li>
+                        <li>Progress and meter elements</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="exam-section">
+            <h2>HTML Exam</h2>
+            <p>Test your knowledge with our HTML quiz</p>
+            <button onclick="startExam('html')" class="exam-btn">Start HTML Exam</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Frontend Learning Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

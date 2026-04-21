@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Frontend Learning Platform</h1>
+        <p>Master HTML, CSS, and JavaScript step by step</p>
+    </header>
+
+    <main>
+        <div class="learning-grid">
+            <div class="learning-box" onclick="goToCourse('html')">
+                <div class="box-icon">📄</div>
+                <h2>HTML</h2>
+                <p>Learn the structure of web pages</p>
+                <div class="status" id="html-status">Not Started</div>
+            </div>
+
+            <div class="learning-box" onclick="goToCourse('css')">
+                <div class="box-icon">🎨</div>
+                <h2>CSS</h2>
+                <p>Style and design beautiful websites</p>
+                <div class="status" id="css-status">Locked</div>
+            </div>
+
+            <div class="learning-box" onclick="goToCourse('javascript')">
+                <div class="box-icon">⚡</div>
+                <h2>JavaScript</h2>
+                <p>Add interactivity and functionality</p>
+                <div class="status" id="javascript-status">Locked</div>
+            </div>
+
+            <div class="learning-box" onclick="goToCertificate()">
+                <div class="box-icon">🏆</div>
+                <h2>Certificate</h2>
+                <p>Get your completion certificate</p>
+                <div class="status" id="certificate-status">Locked</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Frontend Learning Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
